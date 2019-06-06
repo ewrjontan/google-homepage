@@ -1,0 +1,46 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+#main-logo{
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+
+}
+
+#form-container{
+    position: relative;
+    margin: auto;
+    background-color: none;
+    width: 100%;
+    max-width: 600px;
+    top: 350px;
+}
+
+#input-text{
+    height: 40px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 25px;
+}
+
+#button-container{
+    width: 100%;
+    position: relative;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.buttons{
+    font-size: 25px;
+    padding: 10px 30px 10px 30px;
+    background-color: #efefef;
+    margin-left: 10px;
+    margin-right: 10px;
+}
