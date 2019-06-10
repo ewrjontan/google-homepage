@@ -11,7 +11,37 @@ html{
     margin: auto;
     width: 100%;
     max-width: 600px;
+}
 
+a:link {
+    color: black;
+  }
+  
+a:visited {
+    color:black;
+  }
+
+.nav-footer-list{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    color: black;
+    list-style-type: none;  
+}
+
+#left{
+    float: left;
+}
+
+#right{
+    float: right;
+}
+
+
+ul a:link{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #form-container{
@@ -43,4 +73,10 @@ html{
     background-color: #efefef;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+footer{
+
+    position: relative;
+    margin-top: 600px;
 }
